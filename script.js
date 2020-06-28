@@ -8,14 +8,14 @@ document.addEventListener("keydown", keyDownEvent);
   setInterval(draw, 1000 / speed);
 
   // game world
-  var gridSize = (tileSize = 20); // 20 x 20 = 400
+  var gridSize = (tileSize = 25); 
   var nextX = (nextY = 0);
 
   // snake
   var defaultTailSize = 2;
   var tailSize = defaultTailSize;
   var snakeTrail = [];
-  var snakeX = (snakeY = 5);
+  var snakeX = (snakeY = 20);
 
   // apple
   var appleX = (appleY = 15);
